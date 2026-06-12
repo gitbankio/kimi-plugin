@@ -1,0 +1,25 @@
+{
+  "name": "gitbank",
+  "version": "1.0.0",
+  "description": "Connect your GitHub-linked Web3 vault to Kimi Code. Check balances, transactions, and project bounties on Base L2.",
+  "keywords": ["web3", "github", "base", "defi", "issueops", "bounty", "vault"],
+  "author": "Gitbank",
+  "homepage": "https://gitbank.io",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Gitbank",
+    "shortDescription": "Web3 IssueOps tools via MCP. Vault balances, transactions, and bounty tracking on Base L2.",
+    "longDescription": "Gitbank brings your on-chain GitHub vault into Kimi Code. Ask about vault balances, transaction history, project budgets, and connected repositories without leaving your coding session.",
+    "developerName": "Gitbank",
+    "websiteURL": "https://gitbank.io"
+  },
+  "mcpServers": {
+    "gitbank": {
+      "url": "https://gitbank.io/api/mcp"
+    }
+  },
+  "skills": "./skills/",
+  "sessionStart": {
+    "skill": "gitbank"
+  }
+}
